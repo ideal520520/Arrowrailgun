@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:crossbow",
+    "minecraft:nether_star"
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+    "components": {
+      "minecraft:custom_name": "Railgun",
+      "minecraft:custom_data": {
+        "is_railgun": true
+      },
+      "minecraft:damage": 464,
+      "minecraft:charged_projectiles": [
+        {
+          "id": "minecraft:arrow",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

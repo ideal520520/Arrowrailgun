@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "railgun",
+	"version": "${version}",
+	"name": "Railgun",
+	"description": "use /railgun to get or 1 nether star and 1 crossbow to make a railgun and shoot 16 deadly arrows at once",
+	"authors": [
+		"LX!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/railgun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "railgun.modid.RailgunMain"
+		]
+	},
+	"mixins": [
+		"railgun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
